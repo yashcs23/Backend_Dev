@@ -1,0 +1,86 @@
+
+
+LINUX COMMANDS WITH USAGE
+
+1.  pwd Prints the current working directory. Usage: pwd
+
+2.  ls Lists files and directories. Usage: ls ls -l ls -a ls -lh
+
+3.  cd Changes the current directory. Usage: cd /path cd .. cd ~
+
+4.  mkdir Creates a new directory. Usage: mkdir folder_name mkdir -p
+    dir1/dir2
+
+5.  rmdir Removes an empty directory. Usage: rmdir folder_name
+
+6.  rm Deletes files or directories. Usage: rm file.txt rm -r folder rm
+    -rf folder
+
+7.  cp Copies files or directories. Usage: cp source destination cp -r
+    dir1 dir2
+
+8.  mv Moves or renames files. Usage: mv oldname newname mv file /path
+
+9.  touch Creates an empty file. Usage: touch file.txt
+
+10. cat Displays file content. Usage: cat file.txt
+
+11. less Views file content page by page. Usage: less file.txt
+
+12. head Displays first lines of a file. Usage: head file.txt head -n 5
+    file.txt
+
+13. tail Displays last lines of a file. Usage: tail file.txt tail -n 5
+    file.txt
+
+14. chmod Changes file permissions. Usage: chmod 755 file chmod +x
+    script.sh
+
+15. chown Changes file owner. Usage: chown user file chown user:group
+    file
+
+16. grep Searches text in files. Usage: grep “word” file.txt grep -i
+    “word” file.txt
+
+17. find Searches for files. Usage: find /path -name file.txt
+
+18. wc Counts lines, words, characters. Usage: wc file.txt wc -l
+    file.txt
+
+19. df Shows disk usage. Usage: df -h
+
+20. du Shows directory size. Usage: du -sh folder
+
+21. ps Shows running processes. Usage: ps ps aux
+
+22. top Displays live process status. Usage: top
+
+23. kill Terminates a process. Usage: kill PID kill -9 PID
+
+24. uname Shows system information. Usage: uname -a
+
+25. whoami Displays current user. Usage: whoami
+
+26. history Shows command history. Usage: history
+
+27. clear Clears the terminal screen. Usage: clear
+
+28. man Shows command manual. Usage: man ls
+
+29. echo Prints text to terminal. Usage: echo “Hello”
+
+30. tar Archives files. Usage: tar -cvf file.tar folder tar -xvf
+    file.tar
+
+31. zip / unzip Compresses and extracts files. Usage: zip file.zip
+    file.txt unzip file.zip
+
+32. ping Checks network connectivity. Usage: ping google.com
+
+33. ifconfig / ip Shows network configuration. Usage: ip addr
+
+34. wget Downloads files from internet. Usage: wget url
+
+35. curl Transfers data from URLs. Usage: curl url
+
+
