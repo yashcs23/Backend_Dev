@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=F7C936&center=true&vCenter=true&width=700&lines=Designed+and+Taught+by+Yash+Purwar;Backend+Engineer+%7C+System+Thinker;Building+Production-Ready+Backends" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=F7C936&center=true&vCenter=true&width=700&lines=Designed+by+Yash+Purwar;Backend+Engineer+%7C+System+Thinker;Building+Production-Ready+Backends" />
 </p>
 
 <p align="center">
@@ -124,3 +124,4 @@
 <p align="center">
   🚀 Happy Backend Engineering 🚀
 </p>
+
