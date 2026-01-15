@@ -97,7 +97,7 @@
 
 ---
 
-## 👨‍💻 Instructor
+## 👨‍💻 Made with ❤️
 
 <p align="center">
   <b style="font-size:22px">Yash Purwar</b><br/>
@@ -124,4 +124,5 @@
 <p align="center">
   🚀 Happy Backend Engineering 🚀
 </p>
+
 
