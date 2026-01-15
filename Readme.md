@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=24&duration=3000&color=F7C936&center=true&vCenter=true&width=700&lines=Designed+and+Taught+by+Yash+Purwar;Backend+Engineer+%7C+System+Thinker;Building+Production-Ready+Backends" />
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" />
 </p>
 
@@ -19,24 +23,24 @@
 
 ## ⚡ Course Vibe
 
-🎬 **Story-driven backend engineering**
-🛠️ **Hands-on + real-world workflows**
-🧠 **No theory overload**
+🎬 **Story-driven backend engineering**  
+🛠️ **Hands-on + real-world workflows**  
+🧠 **No theory overload**  
 🔥 **Production-first mindset**
 
-> Backend development is not about writing APIs.
+> Backend development is not about writing APIs.  
 > It’s about **designing systems that survive real users.**
 
 ---
 
 ## 🧩 Teaching Style (Animated Flow)
 
-➡️ Problem appears
-➡️ Break it down
-➡️ Design the backend logic
-➡️ Code it live
-➡️ Debug like a pro
-➡️ Optimize & secure
+➡️ Problem appears  
+➡️ Break it down  
+➡️ Design the backend logic  
+➡️ Code it live  
+➡️ Debug like a pro  
+➡️ Optimize & secure  
 
 <p align="center">
   <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="400" />
@@ -82,13 +86,22 @@
 
 ## 🎯 End Result
 
-✅ You can design real backend systems
-✅ You can build secure APIs
-✅ You understand production workflows
-✅ You think like a backend engineer
+✅ You can design real backend systems  
+✅ You can build secure APIs  
+✅ You understand production workflows  
+✅ You think like a backend engineer  
 
 <p align="center">
   <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="450" />
+</p>
+
+---
+
+## 👨‍💻 Instructor
+
+<p align="center">
+  <b style="font-size:22px">Yash Purwar</b><br/>
+  <i>Backend Engineer • System Designer • Node.js Instructor</i>
 </p>
 
 ---
@@ -101,6 +114,11 @@
 
 <p align="center">
   <b>Code less. Think more. Build better backends.</b> 💻🔥
+</p>
+
+<p align="center">
+  <i>“Great backends are invisible until they fail.”</i><br/>
+  <b>— Yash Purwar</b>
 </p>
 
 <p align="center">
