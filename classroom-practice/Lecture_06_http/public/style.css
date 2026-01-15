@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background:linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.product {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
