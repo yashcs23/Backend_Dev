@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Govind",
+    "age": 21,
+    "marks": 87,
+    "branch": "CSE"
+  },
+  {
+    "id": 2,
+    "name": "Govind",
+    "age": 21,
+    "marks": 87,
+    "branch": "CSE"
+  },
+  {
+    "id": 3,
+    "name": "Govind",
+    "age": 21,
+    "marks": 87,
+    "branch": "CSE"
+  },
+  {
+    "id": 4,
+    "name": "Govind",
+    "age": 21,
+    "marks": 87,
+    "branch": "CSE"
+  },
+  {
+    "id": 5,
+    "name": "Govind",
+    "age": 21,
+    "marks": 87,
+    "branch": "CSE"
+  },
+  {
+    "id": 6,
+    "name": "Govind",
+    "age": 21,
+    "marks": 87,
+    "branch": "CSE"
+  }
+]
