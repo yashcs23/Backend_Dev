@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management</title>
+</head>
+<body>
+
+    <h1>Add New Student</h1>
+
+    <form action="/student/register" method="POST">
+        <input type="text" name="name" placeholder="Enter Name" required>
+
+        <select name="branch" required>
+            <option value="">Select Branch</option>
+            <option value="CSE">CSE</option>
+            <option value="Civil">Civil</option>
+            <option value="Mechanical">Mechanical</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+
+    <h2>Current Students</h2>
+
+
+    <% if (allStudents.length === 0) { %>
+        <p>No students available</p>
+    <% } else { %>
+        <ul>
+            <% allStudents.forEach(student => { %>
+                <li>
+                    <%= student.name %> - 
+                    <strong><%= student.branch %></strong>
+                </li>
+            <% }) %>
+        </ul>
+    <% } %>
+
+    <h1>Total Students</h1>
+    <%= count %>
+
+
+</body>
+</html>
