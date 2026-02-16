@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <style>
+    body { font-family: Arial; max-width: 800px; margin: 50px auto; }
+    .blog-header { display: flex; justify-content: space-between; align-items: center; }
+    .new-post-btn { background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    .new-post-btn:hover { background-color: #218838; }
+    .post-item { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 5px; }
+    .post-item h3 { margin: 0; }
+    .post-meta { color: #666; font-size: 14px; margin: 5px 0; }
+    .post-excerpt { color: #333; }
+    .read-more { color: #007bff; text-decoration: none; }
+    .read-more:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="blog-header">
+    <h1>Blog</h1>
+    <a href="/blog/new" class="new-post-btn">New Post</a>
+  </div>
+  
+  <% if (posts.length > 0) { %>
+    <% posts.forEach(post => { %>
+      <div class="post-item">
+        <h3><a href="/blog/<%= post.id %>" class="read-more"><%= post.title %></a></h3>
+        <div class="post-meta">By <%= post.author %> on <%= post.date.toLocaleDateString() %></div>
+        <p class="post-excerpt"><%= post.content.substring(0, 150) %>...</p>
+      </div>
+    <% }); %>
+  <% } else { %>
+    <p>No posts yet. <a href="/blog/new">Create one now!</a></p>
+  <% } %>
+</body>
+</html>

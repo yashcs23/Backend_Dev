@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photo Gallery</title>
+  <style>
+    body { font-family: Arial; max-width: 1000px; margin: 50px auto; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    .gallery-item { border: 1px solid #ddd; border-radius: 5px; overflow: hidden; cursor: pointer; }
+    .gallery-item img { width: 100%; height: 200px; background-color: #e0e0e0; }
+    .gallery-item-info { padding: 10px; }
+    .gallery-item-name { font-weight: bold; }
+    .gallery-item-desc { color: #666; font-size: 14px; }
+    a { text-decoration: none; color: inherit; }
+    a:hover .gallery-item { box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+  </style>
+</head>
+<body>
+  <h1>Photo Gallery</h1>
+  <div class="gallery">
+    <% images.forEach(image => { %>
+      <a href="/gallery/<%= image.id %>">
+        <div class="gallery-item">
+          <img src="/images/<%= image.filename %>" alt="<%= image.name %>">
+          <div class="gallery-item-info">
+            <div class="gallery-item-name"><%= image.name %></div>
+            <div class="gallery-item-desc"><%= image.description %></div>
+          </div>
+        </div>
+      </a>
+    <% }); %>
+  </div>
+</body>
+</html>

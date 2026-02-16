@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Contacts</title>
+  <style>
+    body { font-family: Arial; max-width: 800px; margin: 50px auto; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+    th { background-color: #007bff; color: white; }
+    tr:hover { background-color: #f5f5f5; }
+    a { color: #007bff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>All Contacts</h1>
+  <% if (contacts.length > 0) { %>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Message</th>
+        <th>Date</th>
+      </tr>
+      <% contacts.forEach(contact => { %>
+        <tr>
+          <td><%= contact.name %></td>
+          <td><%= contact.email %></td>
+          <td><%= contact.message %></td>
+          <td><%= contact.date.toLocaleDateString() %></td>
+        </tr>
+      <% }); %>
+    </table>
+  <% } else { %>
+    <p>No contacts yet.</p>
+  <% } %>
+  <br>
+  <a href="/contact">Add New Contact</a>
+</body>
+</html>

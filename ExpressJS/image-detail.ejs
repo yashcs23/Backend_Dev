@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= image.name %></title>
+  <style>
+    body { font-family: Arial; max-width: 800px; margin: 50px auto; }
+    img { width: 100%; height: auto; border-radius: 5px; }
+    .image-info { margin-top: 20px; }
+    .image-info h2 { margin: 10px 0; }
+    .image-info p { color: #666; }
+    a { color: #007bff; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <a href="/gallery">Back to Gallery</a>
+  <img src="/images/<%= image.filename %>" alt="<%= image.name %>">
+  <div class="image-info">
+    <h2><%= image.name %></h2>
+    <p><%= image.description %></p>
+  </div>
+</body>
+</html>
