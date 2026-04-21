@@ -1,0 +1,23 @@
+{
+  "name": "rate-limited-login",
+  "version": "1.0.0",
+  "description": "Login with rate limiting and account lockout after failed attempts",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --runInBand",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["rate-limiting", "account-lockout", "security"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "bcrypt": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.1"
+  }
+}

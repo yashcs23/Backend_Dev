@@ -1,0 +1,27 @@
+{
+  "name": "passport-multiple-strategies",
+  "version": "1.0.0",
+  "description": "Passport.js with local and JWT authentication strategies",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --runInBand",
+    "dev": "nodemon app.js"
+  },
+  "keywords": ["passport", "authentication", "jwt", "local-strategy"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-jwt": "^4.0.1",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.1"
+  }
+}
